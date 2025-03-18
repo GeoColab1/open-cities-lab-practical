@@ -45,11 +45,7 @@ This project is a weather map app using React and Leaflet. It lets you search fo
 You need an API key from OpenWeatherMap.
 1. Go to [OpenWeather](https://openweathermap.org/)
 2. Sign up and get a free API key
-3. Make a `.env` file in the project root and put:
-   ```env
-   REACT_APP_WEATHER_API_KEY=your_api_key_here
-   ```
-
+3. Replace your API key with "OpenwheatermapAPIKey" in the MapComponent.js file: ```const API_KEY = "OpenwheatermapAPIKey"; ```
 ## Features
 - Search for a city to see weather
 - Click anywhere on the map to get weather
