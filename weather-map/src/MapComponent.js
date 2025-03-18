@@ -5,7 +5,7 @@ import axios from "axios";
 import L from "leaflet"; 
 import './MapComponent.css'; 
 
-const API_KEY = "12274c44ddd30dc3e203e0ac3cf68898"; 
+const API_KEY = "OpenwheatermapAPIKey"; 
 
 const WeatherApp = () => {
   const [position, setPosition] = useState([20, 0]); 
